@@ -1,0 +1,19 @@
+# Fdb version 4
+["pdflatex"] 1760892147.63455 "/workspaces/HassanAhmedHimi/example.tex" "example.pdf" "example" 1760892147.76477 0
+  "/etc/texmf/web2c/texmf.cnf" 1760892068.42373 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1705352648 20144 147463a6a579f4597269ef9565205cfe ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1705352648 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1704491087 30006 57b07afb710ee2f649c65cfbafda39c1 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1760892088.48173 128028 f533b797fba58d231669ea19e894e23e ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1760892095 6800786 a4d75cf8d80294e28e1d178f00aca679 ""
+  "/workspaces/HassanAhmedHimi/example.tex" 1760891829.40474 145 1617619f85899d5f7fc61f58553f2489 ""
+  "example.aux" 1760892147.73973 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "example.tex" 1760891829.40474 145 1617619f85899d5f7fc61f58553f2489 ""
+  (generated)
+  "example.aux"
+  "example.log"
+  "example.pdf"
+  (rewritten before read)
