@@ -1,7 +1,11 @@
 {
   "name": "latex-dev",
   "image": "mcr.microsoft.com/devcontainers/base:debian",
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y tectonic",
+  "features": {
+    "ghcr.io/devcontainers/features/apt-packages:1": {
+      "packages": "tectonic"
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": ["james-yu.latex-workshop"],
