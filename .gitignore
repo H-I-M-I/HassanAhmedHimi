@@ -1,0 +1,22 @@
+# LaTeX auxiliary files
+*.log
+*.aux
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.pdfsync
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+*.txt
+
+# Optional: Ignore the PDF if you don't want it in Git (uncomment if desired)
+*.pdf
