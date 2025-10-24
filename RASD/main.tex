@@ -1,3 +1,28 @@
+\documentclass[11pt]{article}
+
+% -------------------------------------------------------------------------
+% Load packages that util files or commandsFile need
+% -------------------------------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{xspace}      % for abbrev.tex
+\usepackage{soul}        % for highlight.tex
+\usepackage{tikz}        % for highlight.tex (if using TikZ diagrams)
+\usepackage{xcolor}      % safer color handling
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+% ... (any other packages you normally need) ...
+% -------------------------------------------------------------------------
+% Bring in helper macro files (before \begin{document})
+% -------------------------------------------------------------------------
+\input{util/abbrev}
+\input{util/comments}
+\input{util/highlight}
+% Load hyperref ONCE, near the end of the preamble
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+% -------------------------------------------------------------------------
+% Bring in the main formatting commands (which sets geometry, headers, etc.)
+% -------------------------------------------------------------------------
 \input{commandsFile}
 
 \begin{document}
@@ -13,7 +38,7 @@
 \centering
 \begin{tabu} to \textwidth { X[1.3,r,p] X[1.7,l,p] }
 \textcolor{Blue}
-{\textbf{\small{project Himi}}} & \includegraphics[scale=0.5]{Images/PolimiLogo}
+{\textbf{\small{Best Bike Paths + project Shuvro Ahmed, Umme Humaira Himi, Ahmed Hassan}}} & \includegraphics[scale=0.5]{Images/PolimiLogo}
 \end{tabu}
 \end{table}}~\\ [7cm]
 
@@ -37,11 +62,11 @@
 
 \textbf{Deliverable:} & RASD\\
 \textbf{Title:} & Requirement Analysis and Verification Document \\
-\textbf{Authors:} & YOUR NAMES \\
+\textbf{Authors:} & Shuvro Ahmed, Umme Humaira Himi, Ahmed Hassan \\
 \textbf{Version:} & 1.0 \\ 
-\textbf{Date:} & 31-January-2016 \\
-\textbf{Download page:} & LINK TO YOUR REPOSITORY \\
-\textbf{Copyright:} & Copyright © 2017, YOUR NAMES – All rights reserved \\
+\textbf{Date:} & 23-December-2025 \\
+\textbf{Download page:} & https://github.com/H-I-M-I/HassanAhmedHimi# \\
+\textbf{Copyright:} & Copyright © 2025, Shuvro Ahmed, Umme Humaira Himi, Ahmed Hassan – All rights reserved \\
 \hline
 \end{tabu}
 \end{table}
